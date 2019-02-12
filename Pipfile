@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scrapy = "*"
+pylint = "*"
+requests = "*"
+pytest = "*"
+nltk = "*"
+sortedcontainers = "*"
+psutil = "*"
+tqdm = "*"
+click = "*"
+simhash-py = {git = "https://github.com/seomoz/simhash-py.git"}
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
